@@ -1,0 +1,27 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+a {
+  text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+p {
+  margin: 40px;
+}
+
+#click {
+  border-color: green;
+  background-color: green;
+}
+
+#email {
+  border-color: orange;
+  background-color: orange;
+}

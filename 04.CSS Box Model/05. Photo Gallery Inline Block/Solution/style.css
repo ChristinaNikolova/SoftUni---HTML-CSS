@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 60%;
+    background-color: rgb(238, 238, 238);
+}
+
+ul,
+li {
+    display: inline-block;
+}
+
+li {
+    border: 0.4rem solid black;
+    list-style-type: none;
+    padding: 10px;
+    background-color: white;
+    margin: 5px;
+    max-width: 30%;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}

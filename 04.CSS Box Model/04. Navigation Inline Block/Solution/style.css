@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header>h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    margin-right: 60px;
+}
+
+main>h1 {
+    font-family: Georgia, serif;
+    font-weight: lighter;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+header>h1,
+nav,
+ul,
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+li {
+    margin-right: 20px;
+}
+
+header {
+    border-bottom: 2px solid black;
+}

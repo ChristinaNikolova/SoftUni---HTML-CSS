@@ -1,0 +1,35 @@
+table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+  background-color: rgb(221, 221, 221);
+}
+
+td,
+th {
+  padding-left: 5px;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: rgb(241, 241, 241);
+}
+
+/* tbody > tr:nth-child(odd) > td {
+  background-color: rgb(241, 241, 241);
+} */
+
+table,
+td,
+th {
+  border: 1px solid rgb(221, 221, 221);
+  border-collapse: collapse;
+}
+
+tbody > tr:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
