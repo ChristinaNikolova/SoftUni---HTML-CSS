@@ -1,0 +1,68 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.viewport.lake {
+  background-image: linear-gradient(
+    to right,
+    #1b42b1,
+    #0075d1,
+    #009dc9,
+    #00bfae,
+    #86da99
+  );
+  position: relative;
+  height: 500px;
+}
+
+.viewport.mountain {
+  background-image: linear-gradient(
+    to right,
+    #b11ba4,
+    #e31c7e,
+    #f84d5a,
+    #f77e3e,
+    #e7aa37
+  );
+  position: relative;
+  height: 500px;
+}
+
+.card {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 300px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.mountain {
+  height: 460px;
+}
+
+.icon {
+  color: white;
+  position: absolute;
+}
+
+.icon.star {
+  right: 11px;
+  bottom: -9px;
+}
+
+.icon.link {
+  right: 11px;
+  bottom: -6px;
+}

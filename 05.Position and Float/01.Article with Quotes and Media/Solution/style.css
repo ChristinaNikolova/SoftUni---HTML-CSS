@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(219, 219, 219);
+}
+
+.site-title {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+
+header,
+main {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+img {
+  border: 3px solid black;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.rightFloat {
+  float: right;
+  max-width: 30%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.leftText {
+  max-width: 50%;
+}
+
+.clearFloat {
+  clear: both;
+}
+
+.rightFloat.blockquote {
+  max-width: 50%;
+}
+
+blockquote {
+  border-left: 2px solid silver;
+  padding-left: 20px;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+blockquote > p:nth-child(2) {
+  text-align: right;
+}
+
+.leftFloat {
+  float: left;
+  margin-right: 30px;
+}

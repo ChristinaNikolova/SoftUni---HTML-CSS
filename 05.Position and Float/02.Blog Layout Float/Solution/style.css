@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+}
+
+.site-title {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(238, 238, 238);
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+.square {
+  list-style-type: square;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+main,
+aside,
+nav,
+ul {
+  display: inline-block;
+}
+
+main {
+  max-width: 70%;
+}
+
+aside {
+  vertical-align: top;
+  max-width: 29%;
+  margin-left: 80px;
+}
+
+.floatRight {
+  float: right;
+  max-width: 30%;
+  margin-left: 20px;
+}
+
+img {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+.clearFloat {
+  clear: both;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 3px solid silver;
+  padding: 20px;
+  color: gray;
+}
+
+.floatRight.blockquote {
+  max-width: 50%;
+}
+
+blockquote > p:nth-child(2) {
+  text-align: right;
+}
+
+.floatLeft {
+  float: left;
+  margin-right: 20px;
+}
