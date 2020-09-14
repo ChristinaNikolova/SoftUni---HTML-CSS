@@ -8,61 +8,40 @@ body {
   margin: 0;
 }
 
-.viewport.lake {
-  background-image: linear-gradient(
-    to right,
-    #1b42b1,
-    #0075d1,
-    #009dc9,
-    #00bfae,
-    #86da99
-  );
+img {
+  width: 300px;
+  border-radius: 4px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.50);
+}
+
+.viewport.mountains img {
+  height: 450px;
+}
+
+.viewport {
   position: relative;
   height: 500px;
 }
 
-.viewport.mountain {
-  background-image: linear-gradient(
-    to right,
-    #b11ba4,
-    #e31c7e,
-    #f84d5a,
-    #f77e3e,
-    #e7aa37
-  );
-  position: relative;
-  height: 500px;
+.viewport.lake {
+  background-image: linear-gradient(to right, #0c2a62, #005da3, #0091ba, #00c197, #12eb41);
+}
+
+.viewport.mountains {
+  background-image: linear-gradient(to right, #9b2a79, #c53363, #dc5148, #e0792c, #d3a216);
 }
 
 .card {
   display: block;
   position: absolute;
-  top: 50%;
   left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
 
-img {
-  width: 300px;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-}
-
-.mountain {
-  height: 460px;
-}
-
-.icon {
+i {
   color: white;
   position: absolute;
-}
-
-.icon.star {
-  right: 11px;
-  bottom: -9px;
-}
-
-.icon.link {
-  right: 11px;
-  bottom: -6px;
+  right: 10px;
+  bottom: 14px;
 }

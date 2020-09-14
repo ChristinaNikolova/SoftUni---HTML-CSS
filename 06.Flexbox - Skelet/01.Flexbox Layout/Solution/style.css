@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 40px 120px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(238, 238, 238);
+    max-width: 80%;
+    height: 60vh;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+header,
+main,
+aside,
+footer {
+    border: 2px solid silver;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px
+}
+
+header {
+    flex: 1 1 100%;
+    height: 15vh;
+}
+
+main {
+    flex: 1 1 65%;
+    height: 50vh;
+}
+
+aside {
+    flex: 1 1 30%;
+    height: 50vh;
+}
+
+footer {
+    flex: 1 1 100%;
+    height: 10vh;
+}

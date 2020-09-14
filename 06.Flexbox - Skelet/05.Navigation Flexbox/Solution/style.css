@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 90%;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.site-title-header {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.site-title-main {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav,
+ul {
+    display: flex;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin-right: 15px;
+    align-self: center;
+}
