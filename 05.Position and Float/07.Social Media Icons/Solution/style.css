@@ -20,7 +20,6 @@ li {
 a {
   border: 20px solid rgba(228, 228, 228, 0.993);
   display: inline-block;
-  max-width: 1000%;
   border-radius: 50%;
   position: relative;
   margin: 10px;
