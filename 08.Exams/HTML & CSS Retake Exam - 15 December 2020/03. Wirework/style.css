@@ -1,0 +1,213 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 1500px;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header-title p {
+    margin-right: 10px;
+}
+
+.header-title,
+.navigation,
+ul {
+    display: flex;
+}
+
+.navigation {
+    align-self: center;
+}
+
+li {
+    list-style: none;
+    margin-right: 2px;
+    border: 1px solid #ECECEC;
+    background: #ECECEC;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-title-main {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #555555;
+}
+
+.header-title-main::after {
+    content: '';
+    border: 1px solid lightgray;
+    margin-left: 19px;
+}
+
+.header-title-sub {
+    color: gray;
+    align-self: center;
+}
+
+.navigation-home-link {
+    background: #E24E2A;
+}
+
+.navigation-home-link a {
+    color: white;
+}
+
+.poster {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poster-img {
+    flex: 1 1 100%;
+    display: flex;
+}
+
+.poster-img img {
+    width: 1500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.poster-content {
+    flex: 1 1 100%;
+    background: #E24E2A;
+    color: #D3D3C9;
+    padding: 30px 210px;
+    text-align: center;
+}
+
+.poster-content-desc a {
+    color: white;
+    text-decoration: underline;
+}
+
+.benefits {
+    background: #383838;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+}
+
+i {
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 25%;
+    font-size: 30px;
+}
+
+.benefits-article-icon-backgroud {
+    background: #E24E2A;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 2px;
+    left: 138px;
+}
+
+.benefits article:nth-child(2) i {
+    top: 26%;
+    left: 17%;
+}
+
+.benefits-article-title {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4C4C4C;
+}
+
+.benefits-article-desc {
+    color: grey;
+    text-align: center;
+}
+
+.benefits-article,
+.info-article {
+    margin-right: 30px;
+}
+
+.explore {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.explore-title {
+    color: #555555;
+    margin-bottom: 0px;
+}
+
+.explore-sub-title {
+    color: lightgrey;
+    margin-top: 0px;
+}
+
+.explore-button {
+    background: #1B9772;
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    letter-spacing: 4px;
+}
+
+.info {
+    background: #383838;
+    display: flex;
+    color: white;
+    padding: 60px 15px;
+}
+
+.info-article-title {
+    color: white;
+    text-align: center;
+}
+
+.info-article-content {
+    color: grey;
+    text-align: center;
+}
+
+.footer {
+    background: #1B9772;
+    display: flex;
+    color: #58B499;
+    justify-content: center;
+}
+
+.footer p {
+    margin-left: 20px;
+}
+
+.footer-white-color {
+    color: #9DCDAD;
+}
+
+.footer p:nth-child(3)::before {
+    content: '';
+    border: 1px solid #58B499;
+    margin-right: 10px;
+}
+
+.footer p:nth-child(3)::after {
+    content: '';
+    border: 1px solid #58B499;
+    margin-left: 10px;
+}

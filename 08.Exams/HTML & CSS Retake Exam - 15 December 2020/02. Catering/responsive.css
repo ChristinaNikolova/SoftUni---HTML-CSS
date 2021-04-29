@@ -1,0 +1,36 @@
+/* TODO: Add the responsive styles here */
+
+@media all and (max-width: 599px) {
+    .w3-right {
+        display: none;
+    }
+
+    #about,
+    #menu {
+        display: flex;
+    }
+
+    #about article:nth-child(1) {
+        display: none;
+    }
+
+    #about article:nth-child(2) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex: 1 1 100%;
+    }
+
+    #about article:nth-child(2) h1 {
+        flex: 1 1 100%;
+    }
+
+    #menu {
+        flex-wrap: wrap;
+    }
+
+    #menu article:nth-child(1),
+    #menu article:nth-child(2) {
+        flex: 1 1 100%;
+    }
+}

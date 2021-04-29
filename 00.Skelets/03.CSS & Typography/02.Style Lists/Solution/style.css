@@ -1,0 +1,13 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#square {
+  list-style-type: square;
+}
+
+section{
+    margin: 50px;
+}
