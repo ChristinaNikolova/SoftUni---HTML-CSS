@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    height: 80vh;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.card-price-price,
+.card-price-desc,
+.card-price-btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards {
+    display: flex;
+}
+
+.card-text,
+.card-price {
+    align-self: center;
+    flex: 1 1 50%;
+    width: 550px;
+}
+
+.card-text {
+    background: #E3F3FD;
+    border-radius: 4px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.46);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.card-text-title {
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.card-text ul {
+    padding-right: 20px;
+}
+
+.card-text li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.card-text i {
+    padding-right: 20px;
+    color: #81C6FA;
+}
+
+.card-price {
+    border: 6px solid #44A9F8;
+    border-radius: 4px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.46);
+    margin-left: 50px;
+    text-align: center;
+    padding: 42px 20px;
+}
+
+.card-price-price{
+    padding-bottom: 20px;
+} 
+
+.card-price-btn {
+    border: none;
+    background: #44A9F8;
+    border-radius: 4px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.46);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+.price-span {
+    color: #44A9F8;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/* prise */

@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 46%);
+    padding: 2px 70px 0px 30px;
+    margin-left: 34px;
+    margin-right: 36px;
+}
+
+.header-logo,
+.footer-logo {
+    width: 130px;
+    height: 80px;
+}
+
+.header-nav,
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav {
+    align-items: center;
+    position: relative;
+}
+
+.header-nav a {
+    color: #6A7582;
+    font-weight: 500;
+}
+
+.header-nav li {
+    margin-right: 30px;
+}
+
+.header-nav-blue-li {
+    background: #42ABF8;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    right: -64px;
+    top: 19px;
+    -webkit-box-shadow: 2px 4px 11px -4px #42ABF8;
+    box-shadow: 2px 4px 11px -4px #42ABF8;
+}
+
+.header-nav-blue-li a {
+    color: white;
+}
+
+.header-nav-border-li::before {
+    content: '';
+    width: 19%;
+    border-bottom: solid 6px #42ABF8;
+    position: absolute;
+    top: -3px;
+    left: 233px;
+}
+
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certificates::before {
+    content: '';
+    background: url("./images/hero-certificates.jpg");
+    opacity: .2;
+    z-index: -1;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    padding-top: 156px;
+    width: 100%;
+    height: 160vh;
+}
+
+.certificates-content,
+.certificates-img {
+    flex: 0 1 50%;
+}
+
+.certificates-content {
+    background: #29394B;
+    z-index: 1;
+    color: white;
+    border-radius: 4px;
+    padding: 25px;
+    top: 70px;
+    left: 84px;
+    position: relative;
+}
+
+.certificates-img {
+    position: relative;
+}
+
+.certificates-img-blue,
+.certificates-img-dark {
+    position: absolute;
+}
+
+.certificates-img-blue {
+    height: 256px;
+    top: 122px;
+    left: 157px;
+}
+
+.certificates-img-dark {
+    top: 84px;
+    right: 157px;
+}
+
+.certificates-parapraph {
+    color: #596574;
+    font-style: italic;
+    flex: 14px;
+    position: relative;
+    bottom: -94px;
+    left: 82px;
+}
+
+.diploma {
+    margin-top: 200px;
+}
+
+.diploma-title {
+    color: #596574;
+    text-align: center;
+    font-weight: 500;
+}
+
+.diploma-main {
+    background: #F4F5F7;
+    color: #606B79;
+    width: 83%;
+    position: relative;
+    left: 79px;
+    padding: 15px;
+}
+
+.diploma-sub {
+    color: #606B79;
+    margin-left: 78px;
+}
+
+.explore {
+    margin-top: 100px;
+}
+
+.explore::before {
+    content: '';
+    background: url(./images/sign-up-prompt-background.jpg);
+    opacity: .8;
+    z-index: -1;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 83%;
+    height: 32vh;
+    display: flex;
+    background-position: top;
+    left: 76px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+.explore-title {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.explore-desc {
+    color: #E0E0E1;
+    width: 1100px;
+    padding-left: 341px;
+    text-align: center;
+}
+
+.explore-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.explore-buttons button {
+    border-radius: 6px;
+}
+
+.explore-buttons-white {
+    background: white;
+    color: #49ADF8;
+    padding: 10px 30px;
+    border: none;
+    margin-right: 80px;
+    position: relative;
+}
+
+.explore-buttons-white::after {
+    content: '';
+    border: .5px solid white;
+    height: 23px;
+    position: absolute;
+    left: 143px;
+    top: 7px;
+}
+
+.explore-buttons-trans {
+    color: #E0E0E1;
+    background: transparent;
+    padding: 10px 40px;
+    border: none;
+    border: 1px solid white;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 1px solid black;
+    margin-left: 76px;
+    margin-right: 163px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-right: 25px;
+}
+
+.footer-logo-desc {
+    color: #D2D2D2;
+    font-size: 12px;
+}
+
+.footer-nav,
+.footer-nav ul {
+    display: flex;
+}
+
+.footer-nav {
+    align-items: center;
+}
+
+.footer-nav li {
+    margin-right: 15px;
+}
+
+.footer-nav a {
+    color: #3E4C5D;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
