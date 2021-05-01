@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px auto;
+    max-width: 1000px;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.car {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.car-header {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.car-header-title {
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.car-content {
+    flex: 0 1 55%;
+    margin-right: 50px;
+}
+
+.car-content-desc,
+.car-content-benefit-content {
+    color: #6B6B6B;
+    margin-top: 5px;
+}
+
+.car-content-benefit-desc-title {
+    color: #888888;
+    margin-bottom: 0px;
+}
+
+.car-content-benefits {
+    padding-left: 0px;
+}
+
+.car-picture {
+    flex: 0 1 35%;
+    align-self: center;
+}
+
+.car-picture-img {
+    width: 150%;
+}
+
+.car-content-benefit {
+    display: flex;
+}
+
+.car-content-benefit-desc {
+    margin-left: 10px;
+}
+
+.car-content-benefit-img {
+    align-self: center;
+}
+
+.custom-desc {
+    margin-left: 15px;
+}
+
+.custom-pic {
+    margin-left: 5px;
+}
+
+li {
+    list-style: none;
+}
