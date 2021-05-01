@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 1400px;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 180px;
+    height: 130px;
+    margin-left: 80px;
+}
+
+.header-nav,
+.header ul {
+    display: flex;
+}
+
+.header-nav {
+    margin-right: 80px;
+}
+
+.header ul {
+    align-self: center;
+}
+
+.header li {
+    margin-right: 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #9999A3;
+}
+
+.payments {
+    background: #54546D;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+}
+
+.calc {
+    position: absolute;
+    left: -36px;
+    top: 67px;
+    width: 200px;
+    height: 200px;
+}
+
+.payments-title {
+    flex: 1 1 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+.payments-basics,
+.payments-fund,
+.payments-prof {
+    flex: 0 1 27%;
+    border: 1px solid lightgray;
+    margin-right: 25px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.46);
+    background: white;
+    position: relative;
+    top: -4px;
+}
+
+.payments-prof {
+    margin-right: 0px;
+}
+
+.payments-basics-title,
+.payments-basics-content,
+.payments-fund-title,
+.payments-fund-content,
+.payments-prof-title,
+.payments-prof-content {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.payments h3 {
+    color: #54546D;
+    text-align: center;
+}
+
+.payments-basics-content,
+.payments-fund-content,
+.payments-prof-content {
+    text-align: center;
+}
+
+.p-color-grey {
+    color: #54546D;
+}
+
+.payments-basics-content button {
+    background: #9A5DC6;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 35px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.46);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.payments-basics-footer,
+.payments-fund-footer,
+.payments-prof-footer {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 192px;
+    width: 100.5%;
+    left: -1px;
+}
+
+.payments-basics-footer {
+    background: rgb(3, 154, 61);
+    background: linear-gradient(90deg, rgba(3, 154, 61, 1) 0%, rgba(44, 189, 99, 1) 35%, rgba(71, 205, 123, 1) 100%);
+    padding: 0px;
+    padding-bottom: 9px;
+}
+
+.payments-basics-footer h3 {
+    padding-top: 20px;
+    color: white;
+}
+
+.payments-basics-footer p {
+    padding-bottom: 0px;
+}
+
+.payments-fund-footer,
+.payments-prof-footer {
+    padding: 0px;
+    display: flex;
+    height: 16.5vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.payments-fund-footer h3,
+.payments-prof-footer h3 {
+    color: white;
+}
+
+.payments-fund-footer h3:nth-child(1),
+.payments-prof-footer h3:nth-child(1) {
+    padding-right: 10px;
+}
+
+.payments-fund-footer-text,
+.payments-prof-footer-text {
+    font-size: 14px;
+    margin-right: 19px;
+}
+
+.payments-fund-footer div:nth-child(1),
+.payments-prof-footer div:nth-child(1) {
+    border-right: 1px solid white;
+    padding-left: 10px;
+}
+
+.payments-fund-footer {
+    background: rgb(76, 108, 137);
+    background: linear-gradient(90deg, rgba(76, 108, 137, 1) 0%, rgba(87, 131, 172, 1) 35%, rgba(97, 154, 206, 1) 100%);
+}
+
+.payments-prof-footer {
+    background: rgb(75, 57, 166);
+    background: linear-gradient(90deg, rgba(75, 57, 166, 1) 0%, rgba(109, 92, 197, 1) 35%, rgba(139, 124, 225, 1) 100%);
+}
+
+.type-educ {
+    margin-top: 320px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.type-educ h2,
+.bank-title {
+    color: #54546D;
+    padding-left: 39px;
+}
+
+.type-educ p {
+    padding-left: 40px;
+    margin-bottom: 50px;
+}
+
+.type-educ li:nth-child(1) {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.type-educ li:nth-child(6) {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.type-educ li {
+    font-size: 18px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    position: relative;
+}
+
+.type-educ li:nth-child(odd) {
+    background: #E6E6E6;
+}
+
+.type-educ li:nth-child(even) {
+    background: #F8F8F8;
+}
+
+.type-educ-icons {
+    position: absolute;
+    right: -10px;
+}
+
+.type-educ-icons img {
+    margin-right: 150px;
+}
+
+.bank {
+    margin: 100px 0px 100px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bank-title {
+    flex: 1 1 100%;
+    padding-left: 0px;
+}
+
+.bank-content {
+    flex: 1 1 60%;
+}
+
+.bank-logo {
+    flex: 1 1 35%;
+    margin-left: 60px;
+}
+
+.footer {
+    background: #54546D;
+    color: #8F8FAA;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
