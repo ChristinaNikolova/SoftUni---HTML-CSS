@@ -1,9 +1,0 @@
-Simple Data Table
-HTML Table
-Company	Contact	Country
-Alfreds Futterkiste	M.A.	Germany
-Centro comercial Moctezuma F.C.		Mexico
-Ernst Handel	R.M.	Austria
-Island Trading	H.B.	UK
-Laughing Bacchus Winecellars	Y.T.	Canada
-Magazzini Alimentari Riuniti	G.R.	Italy
