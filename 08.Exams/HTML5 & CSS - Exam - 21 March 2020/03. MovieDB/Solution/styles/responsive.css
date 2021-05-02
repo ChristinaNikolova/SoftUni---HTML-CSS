@@ -1,0 +1,28 @@
+@media all and (max-width: 768px) {
+    .main-movie-poster {
+        display: none;
+    }
+
+    .main-movie ul {
+        width: 90%;
+    }
+
+    .main-movie ul li {
+        padding: unset;
+    }
+}
+
+@media all and (max-width: 414px) {
+
+    .movies {
+        flex-direction: column;
+    }
+
+    .movie-list {
+        flex-direction: column;
+    }
+
+    .movie-list li {
+        width: unset;
+    }
+}
