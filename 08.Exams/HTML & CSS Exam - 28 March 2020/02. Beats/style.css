@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 1000px;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: #FF0000;
+    border: none;
+    color: #FFE3E3;
+    border-radius: 20px;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+}
+
+h2,
+h4,
+h6 {
+    text-transform: uppercase;
+}
+
+
+.header-nav,
+.header-nav-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-nav-ul {
+    flex: 1 1 100%;
+    justify-content: space-evenly;
+}
+
+.header-nav-ul li {
+    margin-right: 140px;
+}
+
+.header-nav-ul a {
+    color: #9F9F9F;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.solo-wireless,
+.powerbeats {
+    display: flex;
+    margin-top: 40px;
+    position: relative;
+    height: 65vh;
+}
+
+.solo-wireless {
+    overflow: hidden;
+}
+
+.solo-wireless-content {
+    flex: 0 1 50%;
+}
+
+.solo-wireless-picture {
+    flex: 0 1 40%;
+}
+
+.solo-wireless-content-title {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.solo-wireless-content-desc {
+    color: #4D4D4D;
+}
+
+.solo-wireless-content-button {
+    margin-top: 25px;
+}
+
+.solo-wireless-picture img {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 1px;
+    right: -8px;
+}
+
+.powerbeats {
+    background: #FBFCFF;
+}
+
+.powerbeats-content {
+    flex: 0 1 50%;
+    margin-left: 84px;
+}
+
+.powerbeats-content-main-title {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.powerbeats-content-sub-title {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0px;
+    align-self: flex-end;
+    padding-right: 94px;
+}
+
+.powerbeats-content-desc {
+    color: #4D4D4D;
+    padding-left: 118px;
+}
+
+.powerbeats-picture {
+    flex: 0 1 30%;
+}
+
+.powerbeats-content-desc-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.powerbeats-content-price-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.powerbeats-content-price {
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: 44px;
+}
+
+.powerbeats-picture img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 33px;
+    top: 23px;
+}
+
+.read-more {
+    background: #575757;
+    display: flex;
+    flex-wrap: wrap;
+    height: 25vh;
+}
+
+.read-more-content-wrapper {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.read-more-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.read-more-title {
+    color: white;
+    font-weight: 300;
+    margin-top: 34px;
+}
+
+.read-more-link-wrapper {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.read-more-link {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.read-more-link::after {
+    content: '';
+    position: absolute;
+    width: 11%;
+    height: 100px;
+    border-bottom: 1px solid #7C7C7C;
+    top: -50px;
+    left: 445px;
+}
+
+.give-life {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background: #DADADA;
+}
+
+.give-life-picture img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -1px;
+}
+
+.give-life-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.give-life-content-picture img {
+    width: 200px;
+    height: 453px;
+    position: absolute;
+    top: 33px;
+    right: 57px;
+}
+
+.give-life-content-desc {
+    margin-left: 40px;
+}
+
+.give-life-content-desc-big {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: -9px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+.second {
+    margin-top: 0px;
+}
+
+.give-life-content-desc-small-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.give-life-content-desc-small {
+    font-size: 31px;
+    font-weight: 300;
+    letter-spacing: -2px;
+}
+
+.red {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FF0000;
+    margin-left: 2px;
+}
+
+.footer{
+    position: relative;
+    background: white;
+    top: -21px;
+}
+
+.footer-content {
+    color: #8A8A8A;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
