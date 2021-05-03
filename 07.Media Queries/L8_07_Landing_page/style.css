@@ -1,0 +1,257 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px auto;
+    max-width: 1000px;
+    font-family: Helvetica, sans-serif;
+    background: #FEFEFE;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-title {
+    color: #68347B;
+    font-family: Georgia, serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+.sub-site-title {
+    margin-top: 5px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.header-nav ul,
+.header-nav {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.header-nav ul li {
+    margin-left: 20px;
+}
+
+.header-nav a {
+    color: darkgray;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+}
+
+.need-website {
+    display: flex;
+}
+
+.need-website-content {
+    flex: 1 1 70%;
+}
+
+.need-website-content p {
+    font-size: 14px;
+}
+
+.need-website-logo {
+    flex: 1 1 30%;
+    margin-left: 45px;
+}
+
+.need-website-button {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.our-team,
+.testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-team-title,
+.testimonials-title {
+    flex: 1 0 100%;
+    text-align: center;
+}
+
+hr {
+    width: 46px;
+    color: black;
+    margin-top: 0px;
+}
+
+.our-team-list,
+.testimonials-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our-team-list-li,
+.testimonials-list-li {
+    flex: 0 1 30%;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.our-team-list-li-content,
+.our-team-list-li-img,
+.testimonials-list-li-content,
+.testimonials-list-li-img {
+    text-align: center;
+}
+
+.our-team-list-li-content-name,
+.testimonials-list-li-content-name {
+    font-weight: bold;
+}
+
+.our-team-list-li-content-desc,
+.testimonials-list-li-content-desc {
+    font-style: italic;
+}
+
+.our-team-list-li-content-desc {
+    margin-top: 30px;
+}
+
+.testimonials-list-li-content-desc {
+    margin-bottom: 30px;
+}
+
+.our-team-list li img,
+.testimonials-list li img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.46);
+}
+
+.sign-in {
+    background: #68347B;
+    padding: 20px 10px;
+}
+
+.sign-in h2 {
+    color: white;
+    text-align: center;
+}
+
+.sign-in-form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sign-in-form button {
+    background: #FEFEFE;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+
+.sign-in-form input {
+    padding: 5px 2px;
+    width: 350px;
+}
+
+footer {
+    border-top: 4px solid lightgrey;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.46);
+    display: flex;
+    padding: 5px 40px;
+}
+
+footer h3,
+footer h4 {
+    margin-bottom: 5px;
+}
+
+footer article {
+    flex: 0 0 30%;
+    margin: 15px;
+    line-height: 1.5;
+}
+
+.site-map a {
+    color: black;
+}
+
+.site-map-lists {
+    display: flex;
+}
+
+.site-map ul,
+.site-map-lists {
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.site-map ul:nth-child(1) {
+    margin-right: 30px;
+}
+
+.menu {
+    display: none;
+}
+
+@media all and (max-width: 900px) {
+    body {
+        max-width: 800px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .menu {
+        display: block;
+        align-self: center;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .sub-site-title {
+        font-size: 10px;
+    }
+
+    .our-team-list-li,
+    .testimonials-list-li {
+        flex: 0 1 50%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .site-map ul:nth-child(1) {
+        margin-right: 80px;
+    }
+
+    footer article{
+        margin-bottom: 2px;
+    }
+}

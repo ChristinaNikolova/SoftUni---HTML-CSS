@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100vh;
+    font-family: 'Gelasio', serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: #554938;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.header,
+.header-buttons-ul,
+.header-buttons-wrapper,
+.header-nav,
+.header-nav-ul {
+    display: flex;
+}
+
+.header {
+    justify-content: space-evenly;
+    background: #E6E3DE;
+    align-items: center;
+}
+
+.header-nav {
+    position: relative;
+    left: 45px;
+}
+
+.header-nav-ul li a,
+.header-title {
+    color: #554938;
+}
+
+.header-buttons-wrapper a {
+    border: 1px solid #554938;
+    background: #554938;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    padding: 10px 15px;
+}
+
+.header-buttons-ul li,
+.header-nav-ul li {
+    margin-right: 30px;
+}
+
+.header-title-wrapper {
+    position: relative;
+    left: -140px;
+}
+
+.header-buttons-wrapper {
+    position: relative;
+    right: -158px;
+}
+
+.poster {
+    background: url('./Media/craving.jpg');
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position-y: -183px;
+}
+
+.poster-title {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 124px;
+    flex: 1 1 100%;
+}
+
+.poster-form {
+    flex: 1 1 100%;
+    position: relative;
+    left: 483px;
+    top: -36px;
+}
+
+.poster-form input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 38px;
+}
+
+.poster-form i {
+    color: #554938;
+    position: absolute;
+    left: 7px;
+    top: 6px;
+}
+
+.main-content {
+    background: url("./Media/background.jpg");
+    height: 173vh;
+    background-size: cover;
+    background-position-y: -127px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.party,
+.cookies,
+.toolbox {
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.party-picture-wrapper,
+.cookies-picture-wrapper {
+    flex: 1 1 60%;
+}
+
+.party-content,
+.cookies-content {
+    flex: 1 1 40%;
+    background: #E6E3DE;
+    height: 350px;
+    z-index: 0;
+    position: relative;
+}
+
+.party-content {
+    right: 179px;
+    top: 60px;
+}
+
+.cookies-content {
+    left: 176px;
+    top: -6px;
+}
+
+.party-picture,
+.cookies-picture {
+    width: 500px;
+    height: 350px;
+    position: relative;
+    z-index: 1;
+}
+
+.party-picture {
+    left: 177px;
+    top: 60px;
+}
+
+.cookies-picture {
+    right: -41px;
+    top: -6px;
+}
+
+.party-content-main-title,
+.party-content-sub-title,
+.cookies-content-main-title,
+.cookies-content-sub-title {
+    color: #000E23;
+    font-weight: 500;
+}
+
+.party-content-main-title,
+.cookies-content-main-title {
+    font-size: 28px;
+    letter-spacing: -1.5px;
+    position: relative;
+    top: 91px;
+}
+
+.party-content-main-title {
+    left: 222px;
+}
+
+.cookies-content-main-title {
+    left: 41px;
+}
+
+.party-content-sub-title,
+.cookies-content-sub-title {
+    font-size: 16px;
+    top: 52px;
+    position: relative;
+}
+
+.party-content-sub-title {
+    left: 155px;
+}
+
+.cookies-content-sub-title {
+    left: 21px;
+}
+
+.toolbox-button-wrapper {
+    flex: 1 1 100%;
+}
+
+.toolbox-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toolbox-content-article {
+    flex: 1 1 20%;
+    margin-right: 15px;
+}
+
+.toolbox-content-article-content-img {
+    width: 150px;
+    height: 150px;
+}
+
+.toolbox-content {
+    flex: 0 1 60%;
+    position: relative;
+    top: -18px;
+    left: 128px;
+}
+
+.toolbox-title {
+    color: #554938;
+    background: #E6E3DE;
+    flex: 0 1 10%;
+    position: relative;
+    left: 526px;
+    top: -195px;
+    align-self: center;
+    padding: 7px 4px 7px 7px
+}
+
+.toolbox-content-article-content-desc {
+    background-color: rgba(255, 255, 255, 0.4);
+    position: relative;
+    top: -22px;
+    width: 150px;
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+    font-size: 14px;
+}
+
+.toolbox-button {
+    background: #DD5037;
+    font-weight: bold;
+    padding: 10px 50px;
+    position: relative;
+    left: 520px;
+    top: -61px;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    position: relative;
+    top: -73px;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #1D1E1E;
+}
+
+.footer-article-first,
+.footer-article-first-ul,
+.footer-article-second,
+.footer-article-second-ul,
+.footer-article-third,
+.footer-article-third-ul {
+    display: flex;
+}
+
+.footer li {
+    margin-right: 15px;
+}
+
+.after::after {
+    content: '';
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-right: 1px solid #1D1E1E;
+    margin-left: 8px;
+}
+
+.footer ul {
+    padding: 10px 70px;
+}
