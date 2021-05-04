@@ -1,0 +1,264 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 1200px;
+    height: 130vh;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F93700;
+}
+
+header nav,
+header ul {
+    display: flex;
+}
+
+.header-nav-menu-list li {
+    margin-right: 25px;
+}
+
+.header-nav-menu-list li a,
+.header-nav-account li a {
+    color: white;
+    font-weight: 300;
+}
+
+.header-form {
+    position: relative;
+    left: -39px;
+}
+
+.header-form input {
+    border: 1px solid lightgray;
+    padding: 5px;
+    width: 350px;
+}
+
+.header-form i {
+    color: white;
+    background: #B6AFAF;
+    padding: 6px 18px;
+    position: absolute;
+    right: -1px;
+    top: 0px;
+}
+
+.header-nav-account-list {
+    margin-right: 40px;
+}
+
+.header-nav-account i {
+    color: white;
+    position: relative;
+    right: 10px;
+}
+
+.main,
+.footer {
+    background: #F0E4E4;
+}
+
+.rooms {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.rooms img {
+    width: 210px;
+    height: 200px;
+}
+
+.rooms-article {
+    margin-right: 35px;
+}
+
+.rooms-article-title {
+    color: #8C97A5;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.new-collection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.new-collection-content {
+    margin-right: 46px;
+    position: relative;
+    left: -36px;
+}
+
+.new-collection-content-main-title {
+    color: #F93700;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.new-collection-content-sub-title {
+    color: #8C97A5;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.new-collection-content-button {
+    border: none;
+    background: #F93700;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.new-collection-pic img {
+    width: 650px;
+    height: 330px;
+}
+
+.benefits,
+.benefits-articles-warpper {
+    display: flex;
+}
+
+.benefits {
+    justify-content: center;
+}
+
+.benefits-articles-warpper {
+    background: #CAC3C3;
+    padding: 10px;
+    position: relative;
+    left: -20px;
+}
+
+.benefits-article {
+    flex: 1 1 30%;
+    margin-right: 9px;
+    width: 302px;
+}
+
+.benefits-article-icon-wrapper {
+    position: relative;
+    left: 113px;
+    top: 18px;
+}
+
+.benefits-article-icon-wrapper i {
+    color: #757575;
+    font-size: 50px;
+    background: #E6D6D6;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.benefits-article-titles-wrapper {
+    position: relative;
+    left: 106px;
+    top: 23px;
+}
+
+.benefits-article:nth-child(3) .benefits-article-titles-wrapper {
+    left: 82px;
+}
+
+.benefits-article-main-title {
+    color: #474242;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.benefits-article-sub-title {
+    color: #606061;
+    font-weight: 400;
+    margin-top: 0px;
+    position: relative;
+}
+
+.benefits-article:nth-child(1) .benefits-article-sub-title {
+    left: -7px;
+}
+
+.benefits-article:nth-child(2) .benefits-article-sub-title {
+    left: -48px;
+}
+
+.benefits-article:nth-child(3) .benefits-article-sub-title {
+    left: -22px;
+}
+
+.footer,
+.footer ul {
+    display: flex;
+}
+
+.footer,
+.footer a {
+    color: #808080;
+}
+
+.footer {
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer li {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.footer ul .big-li {
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: -4px;
+}
+
+.footer-nav-links {
+    position: relative;
+    left: -35px;
+}
+
+.footer i {
+    font-size: 18px;
+}
+
+.footer ul .small-li{
+    font-size: 10px;
+}
+
+.footer .footer-nav-details-list li.button{
+    color: black;
+    background: #CAC3C3;
+    padding: 6px 30px;
+    border-radius: 4px;
+}
+
+.footer-nav-links-list{
+    padding-left: 0px;
+}

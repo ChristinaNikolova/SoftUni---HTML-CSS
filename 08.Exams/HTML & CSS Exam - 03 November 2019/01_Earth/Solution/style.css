@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px auto;
+    max-width: 700px;
+    height: 120vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-header,
+.card-main,
+.card-footer {
+    flex: 1 1 100%;
+    border: 2px solid black;
+}
+
+.card-header {
+    background: #001216;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.card-header-main-title {
+    color: #13EDF6;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.card-header-sub-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+.card-main {
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+}
+
+.card-main-pic-wrapper {
+    flex: 0 1 30%;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 55vh;
+}
+
+.card-main-pic {
+    padding: 5px 15px 5px 20px;
+    width: 293px;
+}
+
+.card-main-pic-desc {
+    padding: 0px 5px 5px 20px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+}
+
+.card-main-content-wrapper {
+    flex: 0 1 50%;
+    letter-spacing: 2.5px;
+    margin: 23px 13px 0px 20px;
+    font-size: 17px;
+}
+
+.card-footer {
+    border-top: none;
+    background: #D9EBEB;
+    height: 22vh;
+    position: relative;
+}
+
+.card-footer-title {
+    background: #001219;
+    position: absolute;
+    left: -1px;
+    top: -70px;
+    color: white;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.card-footer-list {
+    letter-spacing: 2.5px;
+    padding-left: 20px;
+}
