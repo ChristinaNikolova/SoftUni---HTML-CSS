@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px auto;
+    max-width: 1200px;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    background: #EEEEEE;
+}
+
+table,
+tr,
+td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px 5px;
+}
+
+table {
+    width: 100%;
+    background: white;
+}
+
+thead {
+    background: #333333;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background: #F1F1F1;
+}
+
+@media all and (max-width: 1200px) {
+    body {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media all and (max-width: 599px) {
+    table,
+    thead,
+    tbody,
+    tr {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
