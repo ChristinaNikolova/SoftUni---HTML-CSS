@@ -1,0 +1,238 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 1200px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.header {
+    background: url('../Requirements-and-Resources/image/image.jpg');
+    background-size: cover;
+    background-position-y: center;
+    height: 906px;
+    position: relative;
+    top: -38px;
+}
+
+.header-wrapper {
+    position: relative;
+    left: 40px;
+    top: 108px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    width: 227px;
+    padding: 5px 16px;
+    box-shadow: rgb(0 0 0 / 46%) -1px 3px 34px 10px
+}
+
+.header-main-title {
+    color: #363434;
+    font-size: 40px;
+    text-shadow: -1px 0px black;
+}
+
+.header-main-title::after {
+    content: '';
+    width: 68%;
+    height: 100px;
+    border-bottom: 3px solid white;
+    position: absolute;
+    top: 50px;
+    left: 14px;
+}
+
+.header-sub-title {
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+.page {
+    display: flex;
+}
+
+.about {
+    width: 337px;
+    height: 229px;
+    font-size: 14px;
+    background: rgb(157, 147, 139);
+    background: linear-gradient(135deg, rgba(157, 147, 139, 1) 0%, rgba(205, 202, 199, 1) 35%, rgba(202, 200, 198, 1) 100%);
+    color: white;
+    text-shadow: -1px 0px 2px black;
+    position: relative;
+    top: -619px;
+    left: 818px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.46);
+}
+
+.about-content {
+    margin-top: 81px;
+    line-height: 1.5;
+    text-align: right;
+}
+
+.about-content::before {
+    content: '"';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    color: #8D8581;
+    text-shadow: -1px 0px 2px black;
+    font-size: 74px;
+    top: 32px;
+    left: -17px;
+}
+
+.our-service {
+    flex: 1 1 60%;
+    background: #F2F0F3;
+    position: relative;
+    top: -267px;
+    color: #333333;
+    padding: 20px 0 20px 40px;
+}
+
+.our-service-title,
+.footer-title {
+    text-transform: uppercase;
+    text-shadow: -1px 0px 0px black;
+    margin-left: 40px;
+}
+
+.our-service-list {
+    width: 80%;
+}
+
+.our-service-list li {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.our-service-list li span {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.aside {
+    flex: 1 1 50%;
+    background: #BAB1AD;
+    position: relative;
+    top: -38px;
+    font-weight: 300;
+}
+
+.aside-list,
+.aside-list li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aside-list {
+    justify-content: flex-start;
+    margin-top: 38px;
+}
+
+.aside-list li {
+    flex-direction: column;
+    margin-bottom: 60px
+}
+
+.aside-info {
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.aside-number {
+    color: white;
+    font-size: 70px;
+    text-transform: lowercase
+}
+
+.footer {
+    background: #F2F0F3;
+    width: 904px;
+    position: relative;
+    top: -287px;
+    height: 32vh;
+}
+
+.footer-title::after {
+    content: '';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border-bottom: 2px solid #808080;
+    text-shadow: -1px 0px 2px black;
+    top: -63px;
+    left: 1px;
+}
+
+.footer-title {
+    padding-left: 40px;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 84%;
+    padding-left: 75px;
+    padding-top: 20px;
+}
+
+.footer-list li {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-list strong {
+    font-style: italic;
+}
+
+.footer-form-button {
+    background: #67784D;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.footer-form {
+    margin: 25px 0px 25px 68px;
+}
+
+.footer-form input {
+    border-radius: 6px;
+    border: none;
+    background: #BAB1AD;
+    padding: 10px 162px 10px 10px;
+}
+
+::placeholder {
+    color: white;
+}
