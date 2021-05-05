@@ -1,0 +1,533 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 1580px;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: #FFA000;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-main,
+.header-sub {
+    flex: 1 1 100%;
+    display: flex;
+}
+
+.header-main {
+    justify-content: space-between;
+    background: #234465;
+}
+
+.header-main a {
+    color: #91A1B2;
+}
+
+.header-main-nav,
+.header-main-nav-list,
+.header-sub-nav,
+.header-sub-nav-list,
+.header-main-logo-wrapper {
+    display: flex;
+}
+
+.header-main-logo-wrapper,
+.header-main-nav-list {
+    align-items: center;
+    position: relative;
+}
+
+.header-main-logo-wrapper {
+    left: 231px;
+}
+
+.header-main-nav-list {
+    left: -212px;
+}
+
+.header-main-logo {
+    width: 100px;
+    height: 50px;
+    margin-right: 40px;
+}
+
+.header-main-logo-buttom {
+    padding: 5px 8px;
+}
+
+.header-main-nav-list li {
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header-main-nav-list li a i {
+    font-size: 20px;
+}
+
+.li-login a {
+    background: #FFA000;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.header-sub-nav {
+    align-items: center;
+}
+
+.header-sub-nav-list {
+    position: relative;
+    left: 194px;
+}
+
+.header-sub-nav-list li {
+    margin-right: 15px;
+}
+
+.header-sub-nav-list li:nth-child(1) a {
+    color: #D99A38;
+}
+
+.header-sub-nav-list li:nth-child(2) a {
+    color: #234465;
+    font-weight: bold;
+}
+
+.header-sub-nav-list li:nth-child(2) a::after {
+    content: '';
+    border-bottom: 1px solid #244464;
+    position: absolute;
+    width: 47%;
+    height: 100px;
+    top: -65px;
+    left: 237px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main::after {
+    content: url(../Requirements-and-Resources/images/wordpress.png);
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+    opacity: .6;
+    transform: rotateZ(19deg);
+    top: 369px;
+    left: -100px;
+}
+
+.title {
+    background: #234465 url(../Requirements-and-Resources/images/details-background.png) no-repeat top center;
+    background-size: cover;
+    flex: 1 1 100%;
+    padding-bottom: 50px;
+    z-index: -1;
+}
+
+.title-title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 35px;
+    margin-bottom: 10px;
+}
+
+.title-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.title-list li {
+    color: white;
+    margin-right: 20px;
+}
+
+.title-list i {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.title-button {
+    padding: 8px 100px;
+    position: relative;
+    top: 20px;
+    left: 622px;
+}
+
+.about-course,
+.experiences,
+.themes,
+.details-course,
+.suitable,
+.lecturer {
+    width: 1061px;
+    margin-top: 20px;
+}
+
+.about-course,
+.experiences,
+.themes,
+.details-course,
+.lecturer {
+    background: #F2F2F2;
+    color: #44657B;
+}
+
+.about-course,
+.experiences {
+    z-index: 1;
+}
+
+.about-course {
+    padding-bottom: 30px;
+}
+
+.about-course-title,
+.experiences-title,
+.themes-title {
+    text-align: center;
+}
+
+.about-course-title::after,
+.experiences-title::after,
+.themes-title::after,
+.lecturer-article-title::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    border-bottom: 4px solid #FFA000;
+}
+
+
+.about-course-title::after {
+    width: 7%;
+    top: 331px;
+    left: 707px;
+}
+
+.about-course-content,
+.suitable-content {
+    padding: 20px 50px;
+}
+
+.about-course-button {
+    padding: 8px 100px;
+    position: relative;
+    top: 5px;
+    left: 388px;
+}
+
+.experiences,
+.themes {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.experiences-title,
+.themes-title {
+    flex: 1 1 100%;
+}
+
+.experiences-title::after {
+    width: 24%;
+    top: 659px;
+    left: 578px;
+}
+
+.experiences-left-list,
+.experiences-right-list,
+.themes-left-list,
+.themes-right-list {
+    flex: 1 1 50%;
+}
+
+.experiences-left-list i,
+.experiences-right-list i {
+    color: #FFA000;
+    margin-right: 5px;
+}
+
+.experiences-left-list li,
+.experiences-right-list li,
+.themes-left-list li,
+.themes-right-list li {
+    margin-bottom: 15px;
+}
+
+.experiences-right-list {
+    padding-left: 28px;
+}
+
+.themes-title::after {
+    width: 4%;
+    top: 896px;
+    left: 731px;
+}
+
+.themes-right-list {
+    padding-right: 40px;
+    padding-left: 30px;
+}
+
+.themes li {
+    background: #DADADA;
+    padding: 8px 15px 8px 20px;
+    font-weight: 800;
+    color: #585C64;
+    font-size: 13px;
+    border-left: 4px solid #234465;
+}
+
+
+.themes li span {
+    margin-right: 15px;
+    margin-left: 2px;
+    color: #234465;
+}
+
+.suitable {
+    background: #FFA000;
+    color: white;
+}
+
+.suitable-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.suitable-title::after {
+    content: '';
+    width: 23%;
+    height: 100px;
+    position: absolute;
+    border-bottom: 4px solid white;
+    top: 1360px;
+    left: 584px;
+}
+
+.suitable-content {
+    margin-bottom: 0px;
+}
+
+.details-course {
+    color: #6A6A61;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 239px;
+    position: relative;
+}
+
+.details-course-title {
+    color: #FFA001;
+    margin-bottom: 0px;
+}
+
+.details-course-content {
+    margin-top: 0px;
+}
+
+.details-course-content a {
+    font-weight: bold;
+    color: #337AB7;
+}
+
+.types {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.46);
+    position: absolute;
+    top: 1777px;
+    left: 242px;
+    width: 1036px;
+}
+
+.types-in-class,
+.types-online {
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.types-in-class {
+    background: #234465;
+}
+
+.types-online {
+    background: #FFA000;
+}
+
+.types li {
+    list-style: disc;
+    margin-bottom: 5px;
+}
+
+.types-in-class-list,
+.types-online-list {
+    position: relative;
+}
+
+.types-in-class-list {
+    left: 105px;
+}
+
+.types-online-list {
+    left: 169px;
+}
+
+.lecturer-article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lecturer-article-title {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.lecturer-article-title::after {
+    width: 12%;
+    top: 1990px;
+    left: 670px;
+}
+
+
+.lecturer-article-content {
+    color: #6A6A61;
+}
+
+.lecturer-article-img-warpper {
+    flex: 0 1 30%;
+    position: relative;
+    left: 66px;
+    top: 40px;
+}
+
+.lecturer-article-content-warpper {
+    flex: 1 1 65%;
+    position: relative;
+    right: 111px;
+}
+
+.lecturer-article-img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.lecturer-article-name {
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.lecturer-button {
+    padding: 8px 100px;
+    position: relative;
+    left: 382px;
+    top: 50px;
+}
+
+.footer {
+    background: #162B40;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+
+.footer-about,
+.footer-education,
+.footer-partners,
+.footer-info {
+    flex: 0 1 20%;
+}
+
+.footer-about {
+    margin-left: 189px;
+}
+
+.footer-education {
+    position: relative;
+    left: -27px;
+}
+
+.footer-partners {
+    position: relative;
+    left: -82px;
+}
+
+.footer-info {
+    position: relative;
+    left: -91px;
+}
+
+.footer-about a,
+.footer-education a,
+.footer-partners a,
+.footer-info i {
+    color: white;
+    font-size: 14px;
+}
+
+.footer li {
+    margin-bottom: 8px;
+}
+
+.footer-info p {
+    color: #717E8B;
+    font-size: 14px;
+}
+
+.footer h5 {
+    color: #FFA000;
+    margin-left: 38px;
+    margin-bottom: 12px;
+}
+
+.footer-info-social-media {
+    display: flex;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.footer-info-social-media li {
+    margin-right: 15px;
+}

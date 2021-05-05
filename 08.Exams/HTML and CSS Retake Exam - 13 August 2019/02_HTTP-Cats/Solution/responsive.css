@@ -1,0 +1,32 @@
+@media all and (max-width: 768px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery>* {
+        width: 100%;
+    }
+
+    .spotlight {
+        flex-direction: column;
+    }
+
+    .spotlight>* {
+        width: 100%;
+    }
+
+    .spotlight .inner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .inner h3 {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .spotlight p {
+        text-align: center;
+    }
+}

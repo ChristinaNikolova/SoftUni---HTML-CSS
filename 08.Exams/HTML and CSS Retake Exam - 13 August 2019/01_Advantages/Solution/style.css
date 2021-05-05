@@ -1,0 +1,62 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px auto;
+    max-width: 800px;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.card {
+    position: relative;
+}
+
+.card-title {
+    position: absolute;
+    background: #42ABF8;
+    color: white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 10px 15px;
+    top: -58px;
+    right: 1px;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+    background: #F4F5F7;
+    font-size: 14px;
+    margin-bottom: 1px;
+    padding: 15px 10px;
+    color: grey;
+    position: relative;
+}
+
+li:nth-child(1) {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+li:nth-child(9) {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+li:nth-child(2),
+li:nth-child(6) {
+    margin-bottom: 0px;
+}
+
+i {
+    color: #23BE5E;
+    position: absolute;
+    right: 30px;
+    top: 17px;
+    font-size: 18px
+}
